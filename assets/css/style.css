@@ -1,12 +1,13 @@
 *
 {
-	margin:0px;
+	margin:0%;
 }
 
 body {
 	color: #777777;
 	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 	background-image: url(../images/texture.png);
+	line-height: 30px;
 }
 
 header {
@@ -83,13 +84,58 @@ footer {
 	text-align: center;
 	color: white;
 	padding: 30px;
-	text-align: center;
-	/*margin-top: 20px;*/
 }
 
-/*.outside {
-	width: 960px;
-	padding: 0%;
-	margin-left: : auto;
-	margin-right: auto;
-}*/
+.sticky {
+	min-height: calc(100vh - 70px);
+}
+
+.footer {
+	height: 50px;
+}
+
+.lplaceholder {
+	position: relative;
+	height: 100px;
+	width: 45%;
+	background: grey;
+	margin: 0px;
+	text-align: center;
+	padding-top: 100px;
+	color: white;
+	float: left;
+	margin: 2% 0% 2% 0%;
+}
+
+.rplaceholder {
+	position: relative;
+	height: 100px;
+	width: 45%;
+	background: grey;
+	margin: 0px;
+	text-align: center;
+	padding-top: 100px;
+	color: white;
+	float: right;
+	margin: 2% 0% 2% 0%;
+}
+
+.label {
+	position: absolute;
+	width: 100%;
+	padding: 15px 0px 15px 0px;
+	bottom: 10px;
+	background-color: #4aaaa5;
+	color: white;
+	text-align: center;
+	margin: 0%;
+}
+
+input {
+	width: 100%;
+}
+
+.tall {
+	height: 200px;
+}
+
